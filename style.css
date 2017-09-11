@@ -1,0 +1,35 @@
+html {
+	background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Desktop-Best-And-Website-background-2560x1600-PIC-WPD0012553.jpg);
+	background-size: cover;
+	height: 100%;
+}
+h1 {
+	text-align: center;
+	text-shadow: 0px 0px 10px purple;
+	color: white;
+}
+#first {
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0px 0px 5pc;
+	margin: 20px;
+	border-radius: 6px;
+	margin-left: 40px;
+}
+#first label {
+	color: white;
+	text-shadow: 0px 0px 8px purple;
+}
+.heading {
+	box-shadow: 0px 0px 8px black
+}
+.innerhtml {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+#avButton1 {
+	text-align: center;
+	align-content: center;
+}

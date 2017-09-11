@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="wholeInput">
+            <h1>Grading System</h1>
+            <div id="first">
+                <label><strong>Type in your grade</strong></label>
+                <input id="input" name="grades" type="text" required>
+                <button onclick="calculate()" id="button">Calculate</button>
+            </div>
+        </div>
+        <div class="wholeInput">
+            <div id="first">
+                <label><strong>Type in your grade</strong></label>
+                <input id="input2" name="grades" type="text" required>
+                <button onclick="calculate()" id="button2">Calculate</button>
+            </div>
+        </div>
+        
+        <div class="letter-grade">
+            <h1 class="heading">Grade 1</h1>
+            <h3 class="innerhtml" id="innerH1"></h3>
+        </div>
+        <br />
+        <div class="letter-grade">
+            <h1 class="heading">Grade 2</h1>
+            <h3 class="innerhtml" id="innerH2"></h3>
+        </div>
+        <br />
+        <p>Please enter both your grades before getting an average.</p>
+        <div id="average">
+            <h1>Average Score</h1>
+            <br />
+            <h3 class="innerhtml" id="innerH3"></h3>
+					<div id="avButton1">
+            <button class="heading" id="avButton">Final Average</button>
+            <!--in h3 use the innerHTML method to put in the average-->
+					</div>
+        </div>
+        
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
